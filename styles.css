@@ -1,15 +1,20 @@
 /* Your CSS Code here. */
 .parent {
+	diaplay : flex;
 	background: yellow;
 	display: flex;
+	justify-items : space-between;
 }
 .child{
 	heigth : 100px;
 	width : 20px;
 	padding : 30px 30px;
 	background : red;
-	margin : 3px;
-	justify-items : around;
+	flex-wrap : wrap;
+	margin : 2px;
+	justify-items : space-between;
+/* 	margin : 3px; */
+	
 	
 	
 }
